@@ -25,7 +25,8 @@
 			"{data:{id:\"create:spout\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{id:\"sophisticatedbackpacks:crafting_upgrade\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{id:\"create:encased_fan\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{id:\"create:andesite_funnel\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{id:\"create:andesite_funnel\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"minecraft:cyan_carpet\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		// Declares whether cheating mode is on.
 		"cheating": false,
@@ -159,7 +160,7 @@
 			// Declares the position of the config button.
 			"configButtonLocation": "LOWER",
 			// Declares whether the craftable filter button is enabled.
-			"enableCraftableOnlyButton": false
+			"enableCraftableOnlyButton": true
 		},
 		// Declares the appearance of recipe's border.
 		"recipeBorder": "DEFAULT",

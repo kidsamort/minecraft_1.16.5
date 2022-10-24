@@ -27,7 +27,7 @@ renderDistance:12
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
-maxFps:50
+maxFps:40
 difficulty:2
 graphicsMode:1
 ao:2
@@ -88,7 +88,7 @@ key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.f11
 key_key.spectatorOutlines:key.keyboard.unknown
 key_key.swapOffhand:key.keyboard.f
-key_key.saveToolbarActivator:key.keyboard.c
+key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.x
 key_key.advancements:key.keyboard.l
 key_key.hotbar.1:key.keyboard.1
@@ -107,24 +107,29 @@ key_key.origins.view_origin:key.keyboard.o
 key_key.ftbchunks.map:key.keyboard.comma
 key_key.ftbchunks.minimap.zoomIn:key.keyboard.equal
 key_key.ftbchunks.minimap.zoomOut:key.keyboard.minus
+key_key.duneons.wolfsummon:key.keyboard.minus
+key_key.duneons.petbutton:key.keyboard.keypad.1
+key_tetra.toolbelt.binding.access:key.keyboard.b
+key_tetra.toolbelt.binding.restock:key.keyboard.b:SHIFT
+key_tetra.toolbelt.binding.open:key.keyboard.b:ALT
 key_key.immersiveengineering.magnetEquip:key.keyboard.s
 key_key.immersiveengineering.railgunZoom:key.mouse.middle
 key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
 key_key.unionlib.open_union_inventory:key.keyboard.u
+key_Piston Pushcart Up:key.keyboard.space
+key_Piston Pushcart Down:key.keyboard.left.control
+key_key.curios.open.desc:key.keyboard.g
 key_key.forgeautofish.autofish:key.keyboard.minus
 key_key.forgeautofish.rodprotect:key.keyboard.backslash
 key_key.forgeautofish.autoreplace:key.keyboard.right.bracket
 key_key.forgeautofish.settings:key.keyboard.k
 key_key.forgeautofish.itemfilter:key.keyboard.apostrophe
 key_key.storagenetwork.remote:key.keyboard.i
-key_Piston Pushcart Up:key.keyboard.space
-key_Piston Pushcart Down:key.keyboard.left.control
 key_keybinds.show_wounds:key.keyboard.h
-key_key.curios.open.desc:key.keyboard.g
+key_key.diet.open.desc:key.keyboard.unknown
+key_cos.key.opencosarmorinventory:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
-key_cos.key.opencosarmorinventory:key.keyboard.unknown
-key_key.nutritionalbalance.opennutrientgui:key.keyboard.n
 key_mod.chiselsandbits.keys.key.modded-tool.open:key.keyboard.r
 key_mod.chiselsandbits.keys.key.modded-tool.cycle.left:key.keyboard.unknown
 key_mod.chiselsandbits.keys.key.modded-tool.cycle.right:key.keyboard.unknown
@@ -162,7 +167,7 @@ key_gui.xaero_quick_use_8:key.keyboard.keypad.8
 key_gui.xaero_quick_use_9:key.keyboard.keypad.9
 key_gui.xaero_better_pvp_settings:key.keyboard.y
 key_keybind.sophisticatedbackpacks.open_backpack:key.keyboard.b
-key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.c
+key_keybind.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
 key_keybind.sophisticatedbackpacks.sort:key.mouse.middle
 key_keybind.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.z:ALT
