@@ -1,0 +1,185 @@
+{
+	"basics": {
+		"favorites": [
+			"{json:'{\"group\":\"ftblibrary:info\",\"icon\":\"ftbteams:textures/teams.png\",\"x\":0,\"click\":\"ftbteams:open_gui\",\"loading_screen\":true}',id:\"ftbteams:my_team\",type:\"ftblibrary:sidebar_button\"}",
+			"{data:{id:\"create:speedometer\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:mechanical_saw\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:belt_connector\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:cogwheel\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:crushing_wheel\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:andesite_alloy\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:mechanical_crafter\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:whisk\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:mechanical_mixer\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:basin\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:large_cogwheel\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:brass_ingot\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:mechanical_press\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:andesite_casing\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:water_wheel\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:shaft\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"sereneseasons:season_sensor\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{ForgeCaps:{\"slashblade:bladestate\":{Energy:0,State:{isSealed:0b,isNoScabbard:0b,translationKey:\"\",ComboRootAir:\"standby\",isDestructable:0b,HasShield:0b,SummonedSwordColor:-13421569,lastActionTime:0L,_onClick:0b,fallDecreaseRate:0.0f,currentCombo:\"none\",killCount:0,isCharged:0b,RepairCounter:0,Damage:0.0f,rarityType:0b,ComboRoot:\"standby\",adjustXYZ:[0.0d,0.0d,0.0d],lastPosHash:\"\",RangeAttackType:\"none\",isDefaultBewitched:0b,AttackAmplifier:0.0f,TargetEntity:0,SpecialAttackType:\"none\",BladeUniqueId:[I;335769637,-1456714722,-1652354565,343704961],SummonedSwordColorInverse:0b,isBroken:0b,baseAttackModifier:0.0f,StandbyRenderType:0b}}},id:\"slashblade:slashblade\",Count:1b,tag:{ShareTag:{translationKey:\"\",isNoScabbard:\"false\",isBroken:\"false\"}},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:deployer\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:mechanical_arm\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:spout\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"sophisticatedbackpacks:crafting_upgrade\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:encased_fan\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:andesite_funnel\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+		],
+		// Declares whether cheating mode is on.
+		"cheating": false,
+		"favoritesEnabled": true,
+		"keyBindings": {
+			"recipeKeybind": {
+				"keyCode": "key.keyboard.r",
+				"modifier": 2
+			},
+			"usageKeybind": {
+				"keyCode": "key.keyboard.c",
+				"modifier": 2
+			},
+			"hideKeybind": {
+				"keyCode": "key.keyboard.o",
+				"modifier": 2
+			},
+			"previousPageKeybind": {
+				"keyCode": "key.keyboard.unknown",
+				"modifier": 0
+			},
+			"nextPageKeybind": {
+				"keyCode": "key.keyboard.unknown",
+				"modifier": 0
+			},
+			"focusSearchFieldKeybind": {
+				"keyCode": "key.keyboard.unknown",
+				"modifier": 0
+			},
+			"copyRecipeIdentifierKeybind": {
+				"keyCode": "key.mouse.middle",
+				"modifier": 0
+			},
+			"favoriteKeybind": {
+				"keyCode": "key.keyboard.a",
+				"modifier": 0
+			},
+			"exportImageKeybind": {
+				"keyCode": "key.keyboard.f8",
+				"modifier": 0
+			},
+			"previousScreenKeybind": {
+				"keyCode": "key.keyboard.backspace",
+				"modifier": 0
+			}
+		},
+		// Declares whether REI is visible.
+		"overlayVisible": true,
+		"cheatingStyle": "GRAB",
+		"motion": {
+			"favoritesAnimation": true
+		}
+	},
+	"advanced": {
+		"filtering": {
+			"shouldFilterDisplays": true,
+			"filteringRules": [
+				"{rule:{},id:\"roughlyenoughitems:manual\"}"
+			],
+			"filteredStacks": []
+		},
+		"enableJeiCompatibilityLayer": true,
+		"tooltips": {
+			// Declares whether REI should append mod names to entries.
+			"appendModNames": true,
+			// Declares whether favorites tooltip should be displayed.
+			"displayFavoritesTooltip": false
+		},
+		"layout": {
+			// The ordering of the items on the entry panel.
+			"entryPanelOrdering": "REGISTRY_ASCENDING",
+			// Declares the maximum amount of recipes displayed in a page if possible.
+			"maxRecipesPerPage": 8,
+			// Declares the maximum amount of recipes displayed in a page if possible.
+			"maxRecipesPageHeight": 300,
+			// Declares whether entry rendering time should be debugged.
+			"debugRenderTimeRequired": false,
+			// Merges displays with equal contents under 1 display.
+			"mergeDisplayUnderOne": true,
+			"favoriteAddWidgetMode": "ALWAYS_VISIBLE"
+		},
+		"accessibility": {
+			"entrySize": 1.0,
+			// Declares the position of the entry panel.
+			"displayPanelLocation": "RIGHT",
+			// Declares whether scrolled entry panel should snap to rows.
+			"snapToRows": false,
+			// Declares how the scrollbar in composite screen should act.
+			"compositeScrollBarPermanent": false,
+			"toastDisplayedOnCopyIdentifier": true,
+			// Declares whether REI should use compact tabs for categories.
+			"useCompactTabs": true
+		},
+		"search": {
+			// Declares whether search time should be debugged.
+			"debugSearchTimeRequired": false,
+			// Declares whether REI should search async.
+			"asyncSearch": true,
+			// Declares how many entries should be grouped one async search.
+			"asyncSearchPartitionSize": 100,
+			"tooltipSearch": "ALWAYS",
+			"tagSearch": "PREFIX",
+			"identifierSearch": "ALWAYS",
+			"modSearch": "PREFIX"
+		},
+		"commands": {
+			// Declares the command used to change gamemode.
+			"gamemodeCommand": "/gamemode {gamemode}",
+			// Declares the command used in servers to cheat items.
+			"giveCommand": "/give {player_name} {item_identifier}{nbt} {count}",
+			// Declares the command used to change weather.
+			"weatherCommand": "/weather {weather}",
+			// Declares the command used to change time.
+			"timeCommand": "/time set {time}"
+		},
+		"miscellaneous": {
+			// Declares whether arrows in containers should be clickable.
+			"clickableRecipeArrows": true,
+			"registerRecipesInAnotherThread": true,
+			"newFastEntryRendering": true,
+			"cachingFastEntryRendering": false
+		}
+	},
+	"appearance": {
+		"recipeScreenType": "ORIGINAL",
+		// Declares the appearance of REI windows.
+		"theme": "DARK",
+		"layout": {
+			// Declares the position of the search field.
+			"searchFieldLocation": "TOP_SIDE",
+			// Declares the position of the config button.
+			"configButtonLocation": "LOWER",
+			// Declares whether the craftable filter button is enabled.
+			"enableCraftableOnlyButton": false
+		},
+		// Declares the appearance of recipe's border.
+		"recipeBorder": "DEFAULT",
+		// Declares whether entry panel is scrolled.
+		"scrollingEntryListWidget": false,
+		"horizontalEntriesBoundaries": 1.0,
+		"verticalEntriesBoundaries": 1.0,
+		"horizontalEntriesBoundariesColumns": 50,
+		"verticalEntriesBoundariesRows": 1000,
+		"favoritesHorizontalEntriesBoundaries": 1.0,
+		"favoritesHorizontalEntriesBoundariesColumns": 50,
+		"syntaxHighlightingMode": "COLORFUL",
+		"isFocusModeZoomed": false
+	},
+	"functionality": {
+		// Declares whether REI should remove the recipe book.
+		"disableRecipeBook": false,
+		// Declares whether subsets is enabled.
+		"isSubsetsEnabled": false,
+		"allowInventoryHighlighting": true,
+		"itemCheatingMode": "REI_LIKE"
+	}
+}
