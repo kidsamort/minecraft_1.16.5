@@ -1,6 +1,6 @@
 {
   "renderPlayerNameTag": true,
   "visibility": "FULL",
-  "overrideBrightness": true,
-  "brightness": -0.5518672466278076
+  "overrideBrightness": false,
+  "brightness": 0
 }

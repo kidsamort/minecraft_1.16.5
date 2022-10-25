@@ -25,7 +25,7 @@ fovEffectScale:1.0
 gamma:0.0
 renderDistance:12
 entityDistanceScaling:1.0
-guiScale:2
+guiScale:3
 particles:0
 maxFps:40
 difficulty:2
@@ -126,8 +126,8 @@ key_key.forgeautofish.rodprotect:key.keyboard.backslash
 key_key.forgeautofish.autoreplace:key.keyboard.right.bracket
 key_key.forgeautofish.settings:key.keyboard.k
 key_key.forgeautofish.itemfilter:key.keyboard.apostrophe
-key_key.storagenetwork.remote:key.keyboard.i
 key_keybinds.show_wounds:key.keyboard.h
+key_key.storagenetwork.remote:key.keyboard.i
 key_key.diet.open.desc:key.keyboard.unknown
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt

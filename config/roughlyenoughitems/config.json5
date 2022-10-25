@@ -15,7 +15,6 @@
 			"{data:{id:\"create:large_cogwheel\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{id:\"create:brass_ingot\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{id:\"create:mechanical_press\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{id:\"create:andesite_casing\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{id:\"create:water_wheel\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{id:\"create:shaft\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{id:\"sereneseasons:season_sensor\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
@@ -23,10 +22,27 @@
 			"{data:{id:\"create:deployer\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{id:\"create:mechanical_arm\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{id:\"create:spout\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{id:\"sophisticatedbackpacks:crafting_upgrade\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{id:\"create:encased_fan\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
 			"{data:{id:\"create:andesite_funnel\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
-			"{data:{id:\"minecraft:cyan_carpet\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+			"{data:{id:\"minecraft:hopper\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:electron_tube\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:gearshift\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:incomplete_cogwheel\",Count:1b,tag:{SequencedAssembly:{Progress:0.125f,id:\"create:sequenced_assembly/cogwheel\",Step:1}},type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"minecraft:lever\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"createaddition:furnace_burner\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:furnace_engine\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"minecraft:oak_button\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"minecraft:piston\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:brass_casing\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:flywheel\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"minecraft:bucket\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"minecraft:coal\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:brass_funnel\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:andesite_casing\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:depot\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:andesite_tunnel\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:gearbox\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:encased_fan\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}",
+			"{data:{id:\"create:millstone\",Count:1b,type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		// Declares whether cheating mode is on.
 		"cheating": false,
@@ -156,14 +172,14 @@
 		"theme": "DARK",
 		"layout": {
 			// Declares the position of the search field.
-			"searchFieldLocation": "TOP_SIDE",
+			"searchFieldLocation": "BOTTOM_SIDE",
 			// Declares the position of the config button.
 			"configButtonLocation": "LOWER",
 			// Declares whether the craftable filter button is enabled.
 			"enableCraftableOnlyButton": true
 		},
 		// Declares the appearance of recipe's border.
-		"recipeBorder": "DEFAULT",
+		"recipeBorder": "NONE",
 		// Declares whether entry panel is scrolled.
 		"scrollingEntryListWidget": false,
 		"horizontalEntriesBoundaries": 1.0,
@@ -177,7 +193,7 @@
 	},
 	"functionality": {
 		// Declares whether REI should remove the recipe book.
-		"disableRecipeBook": false,
+		"disableRecipeBook": true,
 		// Declares whether subsets is enabled.
 		"isSubsetsEnabled": false,
 		"allowInventoryHighlighting": true,
