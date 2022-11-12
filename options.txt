@@ -19,7 +19,7 @@ bobView:true
 toggleCrouch:false
 toggleSprint:false
 mouseSensitivity:0.5
-fov:0.25
+fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.0
@@ -193,7 +193,7 @@ key_key.craftingtweaks.decompressAll:key.keyboard.unknown
 key_key.craftingtweaks.refill_last:key.keyboard.tab
 key_key.craftingtweaks.refill_last_stack:key.keyboard.tab
 key_key.configured.open_mod_list:key.keyboard.unknown
-soundCategory_master:1.0
+soundCategory_master:0.14459161
 soundCategory_music:0.1056338
 soundCategory_record:1.0
 soundCategory_weather:1.0

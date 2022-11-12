@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:0
+ignoreUpdate:341
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
@@ -105,7 +105,7 @@ keepUnlockedWhenEnlarged:false
 enlargedMinimapAToggle:false
 displayStainedGlass:true
 waypointOnMapScale:0
-betterSprint:true
+betterSprint:false
 showArmor:true
 showEffects:true
 showEffectNames:true

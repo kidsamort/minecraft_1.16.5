@@ -106,7 +106,7 @@
       }
     },
     "executeOperation": {
-      "keys": "",
+      "keys": "INSERT",
       "settings": {
         "activate_on": "PRESS",
         "context": "INGAME",
